@@ -1,0 +1,2 @@
+Login to Zaarol
+Logout from Zaarol
