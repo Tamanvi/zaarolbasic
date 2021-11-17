@@ -1,3 +1,0 @@
-Login to Zaarol
-Logout from Zaarol
-from framework 
