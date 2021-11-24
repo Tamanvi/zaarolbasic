@@ -42,10 +42,38 @@ public class ReadConfig {
 		return username;
 	}
 		
+	//Create a action Method for UserEmailWrong
+	public String getUseremailWrong()
+	{
+		String usernameWrong = pro.getProperty("useremailWrong");
+		return usernameWrong;
+	}
+	
+	// Create a action Method for UserEmailEmpty
+	public String getUseremailEmpty()
+	{
+		String usernameEmpty = pro.getProperty("useremailEmpty");
+		return usernameEmpty;
+	}
+	
+	
 	//Create a action Method for password
 	public String getPassword()
 	{
 		String password=pro.getProperty("password");
 		return password;
+	}
+	
+	//Create a action Method for passwordWrong
+	public String getPasswordWrong()
+	{
+		String passwordWrong = pro.getProperty("passwordWrong");
+		return passwordWrong;
+	}
+	// Create a action Method for passwordEmpty
+	public String getPasswordEmpty()
+	{
+		String passwordEmpty = pro.getProperty("passwordEmpty");
+		return passwordEmpty;
 	}
 }

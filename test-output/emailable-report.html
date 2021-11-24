@@ -9,98 +9,20 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="7">Zaarol</th></tr>
-<tr><td><a href="#t0">Test1</a></td><td class="num">1</td><td class="num">0</td><td class="num attn">4</td><td class="num">177,183</td><td></td><td></td></tr>
+<tr><td><a href="#t0">Test1</a></td><td class="num">6</td><td class="num">0</td><td class="num attn">1</td><td class="num">35,222</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Zaarol</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test1 &#8212; failed</th></tr><tr class="failedeven"><td rowspan="4">com.zaarolbasic.testCases.TC_LoginDDT_002</td><td><a href="#m0">loginTest</a></td><td rowspan="4">1637145696896</td><td rowspan="4">31034</td></tr><tr class="failedeven"><td><a href="#m1">loginTest</a></td></tr><tr class="failedeven"><td><a href="#m2">loginTest</a></td></tr><tr class="failedeven"><td><a href="#m3">loginTest</a></td></tr><tr><th colspan="4">Test1 &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.zaarolbasic.testCases.TC_LoginTest_001</td><td><a href="#m4">loginTest</a></td><td rowspan="1">1637145585123</td><td rowspan="1">36666</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Zaarol</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test1 &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.zaarolbasic.testCases.TC_LoginTest_001</td><td><a href="#m0">loginTest_invalidEmail_invalidPassword_TC_003</a></td><td rowspan="1">1637752297856</td><td rowspan="1">837</td></tr><tr><th colspan="4">Test1 &#8212; passed</th></tr><tr class="passedeven"><td rowspan="6">com.zaarolbasic.testCases.TC_LoginTest_001</td><td><a href="#m1">loginTest_EmptyUsername_EmptyPassword_TC_007</a></td><td rowspan="1">1637752301394</td><td rowspan="1">855</td></tr><tr class="passedeven"><td><a href="#m2">loginTest_EmptyUsername_InvalidPassword_TC_006</a></td><td rowspan="1">1637752300593</td><td rowspan="1">800</td></tr><tr class="passedeven"><td><a href="#m3">loginTest_invalidEmail_EmptyPassword_TC_005</a></td><td rowspan="1">1637752299662</td><td rowspan="1">929</td></tr><tr class="passedeven"><td><a href="#m4">loginTest_invalidEmail_validPassword_TC_002</a></td><td rowspan="1">1637752296613</td><td rowspan="1">1241</td></tr><tr class="passedeven"><td><a href="#m5">loginTest_validEmail_EmptyPassword_TC_004</a></td><td rowspan="1">1637752298698</td><td rowspan="1">963</td></tr><tr class="passedeven"><td><a href="#m6">loginTest_validEmail_validPassword_TC_001</a></td><td rowspan="1">1637752270456</td><td rowspan="1">26146</td></tr></tbody>
 </table>
-<h2>Test1</h2><h3 id="m0">com.zaarolbasic.testCases.TC_LoginDDT_002#loginTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>adm@yourstore.com</td><td>admin</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//body/div[@id=&apos;root&apos;]/div[2]/div[2]/div[1]/div[1]/div[2]/span[1]/i[1]/*[1]&quot;}
-  (Session info: chrome=96.0.4664.45)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;apples-MacBook-Pro.local&apos;, ip: &apos;fe80:0:0:0:1cd3:e61:6c00:5fad%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;11.6&apos;, java.version: &apos;1.8.0_302&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.45, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: /var/folders/w7/pwyczxqx3d9...}, goog:chromeOptions: {debuggerAddress: localhost:56531}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 64edc6a4f6dc6dcf14ab7f01b4eb3079
-*** Element info: {Using=xpath, value=//body/div[@id=&apos;root&apos;]/div[2]/div[2]/div[1]/div[1]/div[2]/span[1]/i[1]/*[1]}
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at com.zaarolbasic.pageObjects.LoginPage.clickSignOut(LoginPage.java:131)
-	at com.zaarolbasic.testCases.TC_LoginDDT_002.loginTest(TC_LoginDDT_002.java:26)
-... Removed 29 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">com.zaarolbasic.testCases.TC_LoginDDT_002#loginTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>admin@yourstore.com </td><td>adm</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//body/div[@id=&apos;root&apos;]/div[2]/div[2]/div[1]/div[1]/div[2]/span[1]/i[1]/*[1]&quot;}
-  (Session info: chrome=96.0.4664.45)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;apples-MacBook-Pro.local&apos;, ip: &apos;fe80:0:0:0:1cd3:e61:6c00:5fad%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;11.6&apos;, java.version: &apos;1.8.0_302&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.45, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: /var/folders/w7/pwyczxqx3d9...}, goog:chromeOptions: {debuggerAddress: localhost:56531}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 64edc6a4f6dc6dcf14ab7f01b4eb3079
-*** Element info: {Using=xpath, value=//body/div[@id=&apos;root&apos;]/div[2]/div[2]/div[1]/div[1]/div[2]/span[1]/i[1]/*[1]}
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at com.zaarolbasic.pageObjects.LoginPage.clickSignOut(LoginPage.java:131)
-	at com.zaarolbasic.testCases.TC_LoginDDT_002.loginTest(TC_LoginDDT_002.java:26)
-... Removed 29 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m2">com.zaarolbasic.testCases.TC_LoginDDT_002#loginTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>adm@yourstore.com</td><td>adm</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//body/div[@id=&apos;root&apos;]/div[2]/div[2]/div[1]/div[1]/div[2]/span[1]/i[1]/*[1]&quot;}
-  (Session info: chrome=96.0.4664.45)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;apples-MacBook-Pro.local&apos;, ip: &apos;fe80:0:0:0:1cd3:e61:6c00:5fad%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;11.6&apos;, java.version: &apos;1.8.0_302&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.45, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: /var/folders/w7/pwyczxqx3d9...}, goog:chromeOptions: {debuggerAddress: localhost:56531}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 64edc6a4f6dc6dcf14ab7f01b4eb3079
-*** Element info: {Using=xpath, value=//body/div[@id=&apos;root&apos;]/div[2]/div[2]/div[1]/div[1]/div[2]/span[1]/i[1]/*[1]}
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at com.zaarolbasic.pageObjects.LoginPage.clickSignOut(LoginPage.java:131)
-	at com.zaarolbasic.testCases.TC_LoginDDT_002.loginTest(TC_LoginDDT_002.java:26)
-... Removed 29 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m3">com.zaarolbasic.testCases.TC_LoginDDT_002#loginTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>admin@yourstore.com </td><td>admin</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//body/div[@id=&apos;root&apos;]/div[2]/div[2]/div[1]/div[1]/div[2]/span[1]/i[1]/*[1]&quot;}
-  (Session info: chrome=96.0.4664.45)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;apples-MacBook-Pro.local&apos;, ip: &apos;fe80:0:0:0:1cd3:e61:6c00:5fad%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;11.6&apos;, java.version: &apos;1.8.0_302&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.45, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: /var/folders/w7/pwyczxqx3d9...}, goog:chromeOptions: {debuggerAddress: localhost:56531}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 64edc6a4f6dc6dcf14ab7f01b4eb3079
-*** Element info: {Using=xpath, value=//body/div[@id=&apos;root&apos;]/div[2]/div[2]/div[1]/div[1]/div[2]/span[1]/i[1]/*[1]}
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at com.zaarolbasic.pageObjects.LoginPage.clickSignOut(LoginPage.java:131)
-	at com.zaarolbasic.testCases.TC_LoginDDT_002.loginTest(TC_LoginDDT_002.java:26)
-... Removed 29 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m4">com.zaarolbasic.testCases.TC_LoginTest_001#loginTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Test1</h2><h3 id="m0">com.zaarolbasic.testCases.TC_LoginTest_001#loginTest_invalidEmail_invalidPassword_TC_003</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.IllegalArgumentException: Keys to send should be a not null CharSequence
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:97)
+	at com.zaarolbasic.pageObjects.LoginPage.setPassword(LoginPage.java:140)
+	at com.zaarolbasic.testCases.TC_LoginTest_001.loginTest_invalidEmail_invalidPassword_TC_003(TC_LoginTest_001.java:80)
+... Removed 25 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.zaarolbasic.testCases.TC_LoginTest_001#loginTest_EmptyUsername_EmptyPassword_TC_007</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">com.zaarolbasic.testCases.TC_LoginTest_001#loginTest_EmptyUsername_InvalidPassword_TC_006</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">com.zaarolbasic.testCases.TC_LoginTest_001#loginTest_invalidEmail_EmptyPassword_TC_005</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">com.zaarolbasic.testCases.TC_LoginTest_001#loginTest_invalidEmail_validPassword_TC_002</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">com.zaarolbasic.testCases.TC_LoginTest_001#loginTest_validEmail_EmptyPassword_TC_004</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">com.zaarolbasic.testCases.TC_LoginTest_001#loginTest_validEmail_validPassword_TC_001</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

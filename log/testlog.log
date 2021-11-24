@@ -147,3 +147,48 @@
 2021-11-17 18:03:40,742 - Zaarol -INFO - ...Singned in
 2021-11-17 18:03:43,428 - Zaarol -INFO - ...Signed out
 2021-11-17 18:04:03,502 - Zaarol -INFO - ...Logged out
+2021-11-18 12:47:48,382 - Zaarol -INFO - ...Opened Admin Portal
+2021-11-18 12:47:49,108 - Zaarol -INFO - ...Provided User Name
+2021-11-18 12:47:49,174 - Zaarol -INFO - ...Provided Password
+2021-11-18 12:47:49,237 - Zaarol -INFO - ...Singned in
+2021-11-18 12:47:51,806 - Zaarol -INFO - ...Signed out
+2021-11-18 12:48:11,922 - Zaarol -INFO - ...Logged out
+2021-11-18 12:53:18,778 - Zaarol -INFO - ...Opened Admin Portal
+2021-11-18 12:53:19,713 - Zaarol -INFO - ...Provided User Name
+2021-11-18 12:53:19,784 - Zaarol -INFO - ...Provided Password
+2021-11-18 12:53:19,839 - Zaarol -INFO - ...Singned in
+2021-11-18 12:53:22,371 - Zaarol -INFO - ...Signed out
+2021-11-18 12:53:42,484 - Zaarol -INFO - ...Logged out
+2021-11-24 16:41:22,600 - Zaarol -INFO - ...Opened Admin Portal
+2021-11-24 16:41:23,855 - Zaarol -INFO - ...Provided User Name
+2021-11-24 16:41:23,927 - Zaarol -INFO - ...Provided Password
+2021-11-24 16:41:23,978 - Zaarol -INFO - ...Singned in
+2021-11-24 16:41:26,487 - Zaarol -INFO - ...Signed out
+2021-11-24 16:41:36,601 - Zaarol -INFO - ...Logged out
+2021-11-24 16:41:37,170 - Zaarol -INFO - ... Opened Admin Portl
+2021-11-24 16:41:37,667 - Zaarol -INFO - .. Provided Wrong User name
+2021-11-24 16:41:37,743 - Zaarol -INFO - ... Provided Password
+2021-11-24 16:41:37,792 - Zaarol -INFO - ...Singned in
+2021-11-24 16:41:37,853 - Zaarol -INFO - ... Found Email is invalid
+2021-11-24 16:41:38,194 - Zaarol -INFO - ... Opened Admin Portal
+2021-11-24 16:41:38,680 - Zaarol -INFO - .. Provided Wrong User name
+2021-11-24 16:41:39,014 - Zaarol -INFO - ... Opened Admin Portal
+2021-11-24 16:41:39,486 - Zaarol -INFO - ... Provided User name
+2021-11-24 16:41:39,574 - Zaarol -INFO - ... Provided Empty password
+2021-11-24 16:41:39,617 - Zaarol -INFO - ... clicked Signin
+2021-11-24 16:41:39,661 - Zaarol -INFO - ... Found Empty password text
+2021-11-24 16:41:40,010 - Zaarol -INFO - ... Opened Admin Portal
+2021-11-24 16:41:40,430 - Zaarol -INFO - ... Provided invalid username
+2021-11-24 16:41:40,481 - Zaarol -INFO - ... Provided Empty password
+2021-11-24 16:41:40,522 - Zaarol -INFO - ... clicked Signin
+2021-11-24 16:41:40,591 - Zaarol -INFO - ... Invalid Email & Empty password
+2021-11-24 16:41:40,921 - Zaarol -INFO - ... Opened Admin Portal
+2021-11-24 16:41:41,299 - Zaarol -INFO - ... Providing Empty user name
+2021-11-24 16:41:41,299 - Zaarol -INFO - ... Provided Wrong password
+2021-11-24 16:41:41,349 - Zaarol -INFO - ... Clicked Signin
+2021-11-24 16:41:41,392 - Zaarol -INFO - ... Found please fill Email
+2021-11-24 16:41:41,708 - Zaarol -INFO - ... Opened Admin portal
+2021-11-24 16:41:42,079 - Zaarol -INFO - ... Entered Empty user name
+2021-11-24 16:41:42,141 - Zaarol -INFO - ... Provided Empty password
+2021-11-24 16:41:42,189 - Zaarol -INFO - ... Clicked sigin
+2021-11-24 16:41:42,249 - Zaarol -INFO - ... Found please enter EmailID & password

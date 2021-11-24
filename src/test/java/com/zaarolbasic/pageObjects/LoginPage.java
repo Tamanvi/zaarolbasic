@@ -6,6 +6,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.CacheLookup;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.testng.Assert;
 
 public class LoginPage {
 	
@@ -105,19 +106,52 @@ public class LoginPage {
 	By btnSignin =By.xpath("//*[@id=\"root\"]/div[2]/div/form/div[3]/button");
 	By btnSignOut=By.xpath("//body/div[@id='root']/div[2]/div[2]/div[1]/div[1]/div[2]/span[1]/i[1]/*[1]");
 	By btnLogOut = By.xpath("//span[contains(text(),'Logout')]");
+	By txtInvalidEmail = By.xpath("//span[contains(text(),'E-Mail is invalid')]");
+	By txtEmptyPassword = By.xpath("//span[contains(text(),'Please fill the Password')]");
+	By txtPleaseFillEmail = By.xpath("//span[contains(text(),'Please fill the E-Mail')]");
+	
+	//WebElement emailInvalid = driver.findElement(By.xpath("//span[contains(text(),'E-Mail is invalid')]"));
 	
 	// Action Method
+	
+	
+	
+	// Method to send emailiD to emailFeild
 	public void setUserName(String uname)
 	{
 		ldriver.findElement(txtEmail).sendKeys(uname);
 	}
 	
+	//Method to send Wrong email to the emailFeild
+	public void setUserNameWrong(String unameWrong)
+	{
+		ldriver.findElement(txtEmail).sendKeys(unameWrong);
+	}
+	
+	// Method to send userName empty
+	public void setUserNameEmpty(String unameEmpty)
+	{
+		ldriver.findElement(txtEmail).sendKeys(unameEmpty);
+	}
 	
 	// Method to send password in password Field
 	public void setPassword(String pwd)
 	{
 		ldriver.findElement(txtPassword).sendKeys(pwd);
 	}
+	
+	// Method to send Wrong password in password Field
+	public void setPasswordWrong(String pwdWrong)
+	{
+		ldriver.findElement(txtPassword).sendKeys(pwdWrong);
+	}
+	
+	// Method to send password Empty
+	public void setPasswordEmpty(String pwdEmpty)
+	{
+		ldriver.findElement(txtPassword).sendKeys(pwdEmpty);
+	}
+	
 		
 	// Method to click Singin
 	public void clickLogin() 
@@ -137,7 +171,87 @@ public class LoginPage {
 		ldriver.findElement(btnLogOut).click();
 	}
 		
+	// Method to Find invaildEmailID
+	public void findEmailInvalid()
+	{
+		WebElement emailInvalid = ldriver.findElement(txtInvalidEmail);
+		System.out.println(emailInvalid.isDisplayed());
+				 
+		if(emailInvalid.isDisplayed()) 
+		{
+			Assert.assertTrue(true);
+			//System.out.print(true);
+		} else {
+			Assert.assertTrue(false);
+			//System.out.println(false);
+		}
+	}
 	
+	//Method to find Empty password
+	public void findEmptyPassword()
+	{
+		WebElement emptyPassword = ldriver.findElement(txtEmptyPassword);
+		System.out.println(emptyPassword.isDisplayed());
+		
+		if(emptyPassword.isDisplayed())
+		{
+			Assert.assertTrue(true);
+		} else {
+			Assert.assertTrue(false);
+		}
+		
+	}
+	
+	
+	//Method to find Empty Email
+	public void findPleaseFillEmail()
+	{
+		WebElement pleaseFillEmail = ldriver.findElement(txtPleaseFillEmail);
+		System.out.println(pleaseFillEmail.isDisplayed());
+		
+		if(pleaseFillEmail.isDisplayed())
+		{
+			Assert.assertTrue(true);
+		} else {
+			Assert.assertTrue(false);
+		}
+	}
+	
+	
+	//Method to find InvalidEmailID & EmptyPassword
+	public void findInvalidEmail_emptyPassword()
+	{
+		WebElement emailInvalid = ldriver.findElement(txtInvalidEmail);
+		System.out.println(emailInvalid.isDisplayed());
+		WebElement emptyPassword = ldriver.findElement(txtEmptyPassword);
+		System.out.println(emptyPassword.isDisplayed());
+		
+		if(emailInvalid.isDisplayed() && emptyPassword.isDisplayed())
+		{
+			Assert.assertTrue(true);
+		} else {
+			Assert.assertTrue(false);
+		}
+	}
+	
+	//Method to find Empty UserName and Empty password
+	public void findpleaseEnterEmail_password()
+	{
+		WebElement emptyPassword = ldriver.findElement(txtEmptyPassword);
+		System.out.println(emptyPassword.isDisplayed());
+		
+		WebElement pleaseFillEmail = ldriver.findElement(txtPleaseFillEmail);
+		System.out.println(pleaseFillEmail.isDisplayed());
+		
+		if(pleaseFillEmail.isDisplayed() &&  emptyPassword.isDisplayed())
+		{
+			Assert.assertTrue(true);
+		} else {
+			Assert.assertTrue(false);
+		}
+		
+		
+	}
 	
 	
 }

@@ -36,8 +36,10 @@
 				<version>2.18.1</version>
 				<configuration>
 					<suiteXmlFiles>
-						<!-- TestNG suite XML files -->
-						<suiteXmlFile>/Users/apple/eclipse-workspace/zaarolBasic/TestNG.xml</suiteXmlFile>
+						<!-- TestNG suite XML files 
+						Initially it did not work untill i gave full path for TestNG.xml
+						<suiteXmlFile>/Users/apple/eclipse-workspace/zaarolBasic/TestNG.xml</suiteXmlFile> -->
+						<suiteXmlFile>TestNG.xml</suiteXmlFile>
 					</suiteXmlFiles>
 				</configuration>
 		</plugin>

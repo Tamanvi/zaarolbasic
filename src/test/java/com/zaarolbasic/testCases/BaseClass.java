@@ -30,6 +30,10 @@ public class BaseClass {
 	public String baseURL=readconfig.getApplicationURL();
 	public String username =readconfig.getUseremail();
 	public String password =readconfig.getPassword();
+	public String usernameWrongBC = readconfig.getUseremailWrong();
+	public String passwordWrongBC = readconfig.getPasswordWrong();
+	public String usernameEmptyBC = readconfig.getUseremailEmpty();
+	public String passwordEmptyBC = readconfig.getPasswordEmpty();
 	public static WebDriver driver;
 	
 	// Logger to be accessible from every where import for Apache log4j
