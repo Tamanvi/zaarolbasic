@@ -192,3 +192,42 @@
 2021-11-24 16:41:42,141 [main] INFO Zaarol - ... Provided Empty password
 2021-11-24 16:41:42,189 [main] INFO Zaarol - ... Clicked sigin
 2021-11-24 16:41:42,249 [main] INFO Zaarol - ... Found please enter EmailID & password
+2021-12-05 21:12:14,089 [main] INFO Zaarol - ...Opened Admin Portal
+2021-12-05 21:12:15,364 [main] INFO Zaarol - ...Provided User Name
+2021-12-05 21:12:15,429 [main] INFO Zaarol - ...Provided Password
+2021-12-05 21:12:15,478 [main] INFO Zaarol - ...Singned in
+2021-12-05 21:12:17,940 [main] INFO Zaarol - ...Signed out
+2021-12-05 21:12:28,057 [main] INFO Zaarol - ...Logged out
+2021-12-05 21:12:28,446 [main] INFO Zaarol - ... Opened Admin Portl
+2021-12-05 21:12:28,799 [main] INFO Zaarol - .. Provided Wrong User name
+2021-12-05 21:12:28,858 [main] INFO Zaarol - ... Provided Password
+2021-12-05 21:12:28,897 [main] INFO Zaarol - ...Singned in
+2021-12-05 21:12:28,958 [main] INFO Zaarol - ... Found Email is invalid
+2021-12-05 21:12:29,280 [main] INFO Zaarol - ... Opened Admin Portal
+2021-12-05 21:12:29,616 [main] INFO Zaarol - .. Provided Wrong User name
+2021-12-05 21:12:29,966 [main] INFO Zaarol - ... Opened Admin Portal
+2021-12-05 21:12:30,367 [main] INFO Zaarol - ... Provided User name
+2021-12-05 21:12:30,416 [main] INFO Zaarol - ... Provided Empty password
+2021-12-05 21:12:30,456 [main] INFO Zaarol - ... clicked Signin
+2021-12-05 21:12:30,493 [main] INFO Zaarol - ... Found Empty password text
+2021-12-05 21:12:30,828 [main] INFO Zaarol - ... Opened Admin Portal
+2021-12-05 21:12:31,254 [main] INFO Zaarol - ... Provided invalid username
+2021-12-05 21:12:31,299 [main] INFO Zaarol - ... Provided Empty password
+2021-12-05 21:12:31,343 [main] INFO Zaarol - ... clicked Signin
+2021-12-05 21:12:31,413 [main] INFO Zaarol - ... Invalid Email & Empty password
+2021-12-05 21:12:31,721 [main] INFO Zaarol - ... Opened Admin Portal
+2021-12-05 21:12:32,019 [main] INFO Zaarol - ... Providing Empty user name
+2021-12-05 21:12:32,019 [main] INFO Zaarol - ... Provided Wrong password
+2021-12-05 21:12:32,065 [main] INFO Zaarol - ... Clicked Signin
+2021-12-05 21:12:32,111 [main] INFO Zaarol - ... Found please fill Email
+2021-12-05 21:12:32,433 [main] INFO Zaarol - ... Opened Admin portal
+2021-12-05 21:12:32,739 [main] INFO Zaarol - ... Entered Empty user name
+2021-12-05 21:12:32,797 [main] INFO Zaarol - ... Provided Empty password
+2021-12-05 21:12:32,835 [main] INFO Zaarol - ... Clicked sigin
+2021-12-05 21:12:32,894 [main] INFO Zaarol - ... Found please enter EmailID & password
+2021-12-05 21:14:37,567 [main] INFO Zaarol - ...Provided User Name
+2021-12-05 21:14:37,636 [main] INFO Zaarol - ...Provided Password
+2021-12-05 21:16:26,094 [main] INFO Zaarol - ...Provided User Name
+2021-12-05 21:16:26,161 [main] INFO Zaarol - ...Provided Password
+2021-12-05 21:17:10,617 [main] INFO Zaarol - ...Provided User Name
+2021-12-05 21:17:10,683 [main] INFO Zaarol - ...Provided Password

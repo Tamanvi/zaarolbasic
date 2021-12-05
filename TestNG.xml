@@ -10,7 +10,10 @@
 	<test name="Test1">
 		<parameter name="browser" value="chrome"/>
 		<classes>
-			<class name="com.zaarolbasic.testCases.TC_LoginTest_001"/>
+		<!--  	<class name="com.zaarolbasic.testCases.TC_LoginTest_001"/> -->
+			<class name="com.zaarolbasic.testCases.SmokeSuite.TC_01_Dashboard"/>
+			<class name="com.zaarolbasic.testCases.SmokeSuite.TC_04_Customer"/>
+			
 		<!-- 	<class name="com.zaarolbasic.testCases.TC_LoginDDT_002"/> -->
 		</classes>
 	</test>
