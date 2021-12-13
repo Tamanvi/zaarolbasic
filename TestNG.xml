@@ -6,15 +6,32 @@
 		<listener class-name="com.zaarolbasic.utilities.Reporting"/>
 	</listeners>
 
-
 	<test name="Test1">
 		<parameter name="browser" value="chrome"/>
 		<classes>
-			<class name="com.zaarolbasic.testCases.TC_LoginTest_001"/>
-		<!-- 	<class name="com.zaarolbasic.testCases.TC_LoginDDT_002"/> -->
+			<class name="com.zaarolbasic.testCases.SmokeSuite.TC_01_Dashboard"/>
+			<class name="com.zaarolbasic.testCases.SmokeSuite.TC_02_Role_Management"/>
+			<class name="com.zaarolbasic.testCases.SmokeSuite.TC_03_Schedule"/>
+			<class name="com.zaarolbasic.testCases.SmokeSuite.TC_04_Customer"/>
+			<class name="com.zaarolbasic.testCases.SmokeSuite.TC_05_Brands"/>
+			<class name="com.zaarolbasic.testCases.SmokeSuite.TC_06_Categories"/>
+			<class name="com.zaarolbasic.testCases.SmokeSuite.TC_07_Product"/>
+			<class name="com.zaarolbasic.testCases.SmokeSuite.TC_08_Stores"/>
+			<class name="com.zaarolbasic.testCases.SmokeSuite.TC_09_StoreCategories"/>
+			<class name="com.zaarolbasic.testCases.SmokeSuite.TC_10_Pickers"/>
+			<class name="com.zaarolbasic.testCases.SmokeSuite.TC_11_Advertisements"/>
+			<class name="com.zaarolbasic.testCases.SmokeSuite.TC_12_GeoFence"/>
+			<class name="com.zaarolbasic.testCases.SmokeSuite.TC_13_PushNotifications"/>
+			<class name="com.zaarolbasic.testCases.SmokeSuite.TC_14_CancellationsReasons"/>
+			<class name="com.zaarolbasic.testCases.SmokeSuite.TC_15_Driver"/>
+			<class name="com.zaarolbasic.testCases.SmokeSuite.TC_16_OrdersReports"/>
+			<class name="com.zaarolbasic.testCases.SmokeSuite.TC_17_Settings"/>
+			<class name="com.zaarolbasic.testCases.SmokeSuite.TC_18_Images"/>
+			<class name="com.zaarolbasic.testCases.SmokeSuite.TC_19_Orders"/>
+			<class name="com.zaarolbasic.testCases.SmokeSuite.TC_20_PromoCodes"/>
 		</classes>
 	</test>
-	<!--  
+	<!--  Sample different browser run config
 	<test name="Test2">
 		<parameter name="browser" value="firefox"/>
 		<classes>
